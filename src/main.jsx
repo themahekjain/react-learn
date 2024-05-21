@@ -6,6 +6,7 @@ import { Todo } from "./component/todo/todo";
 import { Signup } from "./component/signup/signup";
 import { Login } from "./component/signup/login";
 import { Home } from "./component/signup/home";
+import { UseEffect } from "./component/useEffect/new";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/signup" element={<Signup/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/home" element={<Home/>} />
+        <Route path="/effect" element={<UseEffect/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
